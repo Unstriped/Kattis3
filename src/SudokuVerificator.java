@@ -4,6 +4,12 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 // WIP needs optimizing
+
+/*
+    SUDOKU VERIFICATOR
+
+    Given a sudoku board, verifies if the board is solvable and unique
+*/
 public class SudokuVerificator  {
     static final int emptyField = 0;
     static final int boardSize = 9;
