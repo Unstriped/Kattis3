@@ -8,7 +8,16 @@ import java.util.StringTokenizer;
 /*
     SUDOKU VERIFICATOR
 
-    Given a sudoku board, verifies if the board is solvable and unique
+    Input consists of up to 100 Sudoku boards.
+    Each board is given as a 9-by-9 matrix using digits 0 through 9, one matrix row per line.
+    If a board square contains 0, that means it’s been erased.
+    There is a blank line between pairs of boards. Input ends at end of file.
+
+    For each board, if there is a unique solution,
+    print the solution using the same format as the input.
+    If there are multiple solutions, print “Non-unique”.
+    If the designer has made a terrible mistake and there is no solution, print “Find another job”.
+    Separate the outputs for adjacent cases with a blank line.
 */
 public class SudokuVerificator  {
     static final int emptyField = 0;
